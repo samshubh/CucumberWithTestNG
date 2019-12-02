@@ -1,0 +1,93 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login test",
+        "description": "",
+        "id": "free-crm-application-testing;login-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "title of the page is Free CRM",
+            "match": {
+              "location": "TestNGExample.title_of_the_page_is_Free_CRM()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user is on homepage",
+            "match": {
+              "location": "TestNGExample.user_is_on_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "clicks on login button",
+            "match": {
+              "location": "TestNGExample.clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "enters email and password",
+            "match": {
+              "location": "TestNGExample.enters_email_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "password"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "subhambiswas895@gmail.com",
+                  "Welcome123$"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "verify the user name",
+            "match": {
+              "location": "TestNGExample.verify_the_user_name()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Application Testing",
+    "description": "",
+    "id": "free-crm-application-testing",
+    "keyword": "Feature",
+    "uri": "C:/Users/vt1056.SRITADS/eclipse-workspace/CucumberWithTestNG/src/main/java/com/qa/feature/testng.feature"
+  }
+]

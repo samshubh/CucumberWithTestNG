@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Cucumber Test NG Report" duration-ms="31378" started-at="2019-12-02T17:33:01 IST" finished-at="2019-12-02T17:33:33 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestNGRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.runner.TestNGRunner@3e77a1ed]" name="feature" class="com.qa.runner.TestNGRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Free CRM TestNG" duration-ms="31378" started-at="2019-12-02T17:33:01 IST" finished-at="2019-12-02T17:33:33 IST">
+      <class name="com.qa.runner.TestNGRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qa.runner.TestNGRunner@3e77a1ed]" name="setUpClass" is-config="true" duration-ms="227" started-at="2019-12-02T17:33:02 IST" finished-at="2019-12-02T17:33:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.runner.TestNGRunner@3e77a1ed]" name="feature" duration-ms="30968" started-at="2019-12-02T17:33:02 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-12-02T17:33:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Free CRM Application Testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.runner.TestNGRunner@3e77a1ed]" name="tearDownClass" is-config="true" duration-ms="35" started-at="2019-12-02T17:33:33 IST" finished-at="2019-12-02T17:33:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.runner.TestNGRunner -->
+    </test> <!-- Free CRM TestNG -->
+  </suite> <!-- Cucumber Test NG Report -->
+</testng-results>
